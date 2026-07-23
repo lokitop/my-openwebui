@@ -9,5 +9,5 @@ VOLUME /data
 
 EXPOSE 8080
 
-# Исправленная команда
+# Самая надёжная команда
 CMD ["sh", "-c", "python -m open_webui serve --port $PORT --host 0.0.0.0"]
